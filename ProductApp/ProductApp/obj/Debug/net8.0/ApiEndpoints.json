@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "ProductApp.Controllers.BookController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Book",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductApp.Controllers.BookController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "ProductApp.Model.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductApp.Controllers.BookController",
+    "Method": "GetOneProduct",
+    "RelativePath": "api/Book/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductApp.Controllers.BookController",
+    "Method": "DelteOneProduct",
+    "RelativePath": "api/Book/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
